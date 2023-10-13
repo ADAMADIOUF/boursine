@@ -28,11 +28,11 @@ const Header = () => {
     <div className='header '>
       <div className='header-content '>
         <h2 data-aos='fade-right'>
-          Découvrez Diakhoa : La Cité Mythique de Bour Sine
+          Découvrez Diakhao : La Cité Mythique de Bour Sine
         </h2>
 
         <p data-aos='fade-right'>
-          Explorez l'histoire riche et la culture vibrante de Diakhoa, la
+          Explorez l'histoire riche et la culture vibrante de Diakhao, la
           légendaire cité de Bour Sine Coumba Ndoffene Diouf, à travers notre
           site. Plongez dans les récits historiques, les traditions culturelles
           et les événements captivants qui font de Diakhoa un trésor unique au

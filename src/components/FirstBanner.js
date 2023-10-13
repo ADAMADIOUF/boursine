@@ -7,7 +7,7 @@ const FirstBanner = () => {
         <h3>L'Héritage Historique de Bour Sine</h3>
         <div className='first-banner-display'>
           <h5>
-            Contactez-nous pour partager l'histoire de Diakhoa{' '}
+            Contactez-nous pour partager l'histoire de Diakhao{' '}
             <span className='line'></span>
           </h5>
 

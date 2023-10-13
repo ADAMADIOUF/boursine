@@ -75,7 +75,7 @@ setTimeout(() => {
             <span>
               <BiCurrentLocation />
             </span>
-            <h5>senegal,diakhoa,sine fatcik</h5>
+            <h5>senegal,diakhao,sine fatcik</h5>
           </p>
         </article>
         <article className='form-info'>
