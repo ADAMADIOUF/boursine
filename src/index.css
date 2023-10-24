@@ -805,10 +805,8 @@ video {
 }
 /* Footer */
 .footer{
-background-image: url('./assets//footer1.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+background-color: var(--clr-black);
+color: var(--clr-white);
 height: 400px;
   color: var(--clr-white);
   padding: 1rem;
