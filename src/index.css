@@ -304,7 +304,7 @@ p {
 /* Header */
 .header{
   position: relative;
-  background: url("./assets/sine.png");
+  background: url("./assets/sine1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -313,18 +313,33 @@ p {
   
 }
 
-.header-content{
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+.header-content {
+  position: relative; /* Ensure the content is above the overlay */
   text-align: center;
   color: var(--clr-black);
   max-width: 40rem;
   padding-top: 1rem;
+  z-index: 2; /* Higher index to be above the overlay */
 }
-.header-content p{
+
+.header-content p {
   margin-top: 5rem;
   font-size: 1.2rem;
   color: var(--clr-white);
   font-weight: bolder;
 }
+
 @media (min-width:768px) {
   .header-content p{
     font-size: 2rem;

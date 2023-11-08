@@ -26,6 +26,7 @@ AOS.init({
 const Header = () => {
   return (
     <div className='header '>
+      <div className="overlay"></div>
       <div className='header-content '>
         <h2 data-aos='fade-right'>
           Découvrez Diakhao : La Cité Mythique de Bour Sine
