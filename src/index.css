@@ -304,7 +304,7 @@ p {
 /* Header */
 .header{
   position: relative;
-  background: url("./assets/header-4.png");
+  background: url("./assets/sine.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -805,21 +805,23 @@ video {
 }
 /* Footer */
 .footer{
-background-color: var(--clr-black);
-color: var(--clr-white);
-height: 400px;
+  background-color: #333;
   color: var(--clr-white);
-  padding: 1rem;
+  margin-top: 5rem;
+  padding: 20px;
 }
-.footer-container{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+@media (min-width:768px) {
+  .footer-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+  }
 }
-.footer p{
-  font-size: 1.2rem;
-}
-.footer-date{
-  text-align: center;
+
+@media (min-width:992px) {
+  .footer-container{
+   
+    grid-template-columns: repeat(4,1fr);
+   
+  }
 }
